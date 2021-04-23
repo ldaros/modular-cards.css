@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modular Cards</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="modular-cards.css" />
+    <script type="text/javascript" src="color-switch.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tittle Header</h1>
+
+      <div>
+        <a href="javascript:void(0)">Home</a>
+        <a href="javascript:void(0)">About</a>
+        <a href="javascript:void(0)">Contact</a>
+      </div>
+
+      <label class="switch">
+        <input type="checkbox" id="checkbox" onclick="changeColors(this);" />
+        <span class="slider"></span>
+      </label>
+    </header>
+
+    <div class="flexbox-container">
+      <nav>
+        <div class="container">
+          <div class="menu">
+            <a href="javascript:void(0)"
+              ><img src="media/svg/bi_file-code.svg" alt="Icon" />Menu item 1</a
+            >
+            <a href="javascript:void(0)"
+              ><img src="media/svg/bi_file-code.svg" alt="Icon" />Menu item 2</a
+            >
+            <a href="javascript:void(0)"
+              ><img src="media/svg/bi_file-code.svg" alt="Icon" />Menu item 3</a
+            >
+            <a href="javascript:void(0)"
+              ><img src="media/svg/bi_file-code.svg" alt="Icon" />Menu item 4</a
+            >
+            <a href="javascript:void(0)"
+              ><img src="media/svg/bi_file-code.svg" alt="Icon" />Menu item 5</a
+            >
+          </div>
+          <footer>© 2021 Luan Daros</footer>
+        </div>
+      </nav>
+
+      <main>
+        <article style="width: 50vw; margin-bottom: 20px">
+          <h1>Lorem Ipsum</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque eget felis tincidunt integer sit varius egestas.
+            Libero, et diam in id id cras rhoncus. Egestas etiam molestie in a
+            sapien. Fames sit cras blandit tempus adipiscing.
+          </p>
+          <p>
+            Elementum tortor,mauris nulla augue vestibulum lobortis. Habitant
+            viverra pellentesque dolor egestas tristique nibh cras pellentesque
+            diam. Habitasse nisi mauris lacus enim. Aliquam faucibus mauris
+            etiam at et in dolor vitae. Pharetra nec facilisis feugiat
+            adipiscing vitae ut auctor adipiscing cursus. Eget et, euismod enim
+            integer lectus varius sit duis congue. Euismod euismod vitae quis eu
+            ac.
+          </p>
+          <p>
+            Sed eu amet suscipit porttitor diam senectus tortor. Vitae aliquam
+            iaculis dictum enim, ullamcorper in. Maecenas ac ac faucibus nisl
+            quam. Amet tristique semper diam morbi leo velit sit ac tristique.
+            Tincidunt luctus nunc diam eget lorem blandit magna. Id auctor
+            consectetur sagittis consectetur enim mauris. Netus eros faucibus
+            sit pharetra, nam quis arcu dictum aliquam. Facilisis semper eget
+            consequat orci, arcu nec non aliquet molestie.
+          </p>
+          <img src="media/image.png" alt="Men on a bench" />
+        </article>
+        <article
+          style="width: 20vw; margin-left: 20px; margin-bottom: 20px"
+          class="polaroid"
+        >
+          <img src="media/image2.png" alt="Terrain" style="width: 100%" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <article style="width: 20vw; margin-left: 20px" class="polaroid">
+          <img src="media/image3.png" alt="Terrain" style="width: 100%" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
+            in maecenas sed turpis tincidunt velit. Mi id fames ante dictum in.
+            Est sed.
+          </p>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
