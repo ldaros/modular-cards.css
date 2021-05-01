@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="modular-cards.css" />
+    <script type="text/javascript" src="color-switch.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter|Rosario"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Tittle Goes Here</h1>
+
+      <div>
+        <!-- add navbar links here -->
+        <a href="javascript:void(0)">Home</a>
+        <a href="javascript:void(0)">About</a>
+        <a href="javascript:void(0)">Contact</a>
+      </div>
+
+      <!-- dark mode switch -->
+      <label class="switch">
+        <input type="checkbox" id="checkbox" onclick="changeColors(this);" />
+        <span class="slider"></span>
+      </label>
+    </header>
+
+    <div class="flexbox-container">
+      <nav>
+        <div class="container">
+          <div class="menu">
+            <!-- add your sidenav elements here -->
+            <a href="javascript:void(0)"
+              ><img src="media/svg/bi_file-code.svg" alt="Icon" />Menu item</a
+            >
+          </div>
+          <footer>© 2021 Luan Daros</footer>
+        </div>
+      </nav>
+
+      <main>
+        <!-- create new cards here -->
+        <article style="width: 30vw">
+          <h1>This is a card</h1>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
