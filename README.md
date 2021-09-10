@@ -6,10 +6,4 @@ This template is based around a "card layout", which consists of card-like eleme
 
 [See it in action here](https://ldaros.github.io/modular-cards.css/)
 
-## Usage
 
-Modular-cards.css is still in development, and is not intended for general use yet.
-
-To obtain an early development version of Modular-cards, download it directly from the main branch.
-
-For more information on how to use this design in your project, see the wiki page.
